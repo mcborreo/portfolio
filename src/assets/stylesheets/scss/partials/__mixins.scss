@@ -1,0 +1,37 @@
+@mixin triangle {
+  width: 0;
+  height: 0;
+  border-color: $black transparent;
+  border-style: solid;
+}
+
+@mixin pattern {
+  background-repeat: repeat;
+  background-position: top left;
+}
+
+@mixin container {
+  display: block;
+  margin: 0;
+  padding: 18rem 0;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+@mixin container-mobile {
+  display: block;
+  margin: 0;
+  padding: 9rem 2.5rem;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+@mixin footer-link {
+  border-color: $black;
+  border-style: solid;
+  font-family: $font-heading;
+  font-weight: bold;
+  background: $white;
+}
